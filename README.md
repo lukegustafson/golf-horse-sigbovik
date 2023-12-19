@@ -1,2 +1,2 @@
 # golf-horse-sigbovik
-My submission to the Sigbovik Golf Horse competition
+This is a "sanitized" version of my submission to the Sigbovik Golf Horse competition (http://golf.horse/sigbovik/). "Sanitized" means I have left the JavaScript code untouched, but the string containing compressed data has been changed so as to not reveal my best solution. The code here still solves the problem, but it comes in at 602 bytes, while my submission is only 564 bytes.
