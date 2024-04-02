@@ -6,3 +6,4 @@ My submissions are as follows:
 * auroch_v2: 561 bytes, using the same code as the original auroch, but encoder improvements that found a better multiplier and compressed data
 * auroch_v3: 559 bytes. Replaced "^=" with "=" to save one byte, and further encoder improvements that saved another byte of compressed data
 * auroch_v4: 556 bytes. Replaced the loop termination condition to save two bytes in expectation, plus a byte saved in compressed data due to luck
+* auroch_v5: 553 bytes. Modified the hash slightly so it could be combined with the loop termination condition, saving 2 bytes of code. Enhanced the encoder to consider 4-byte characters and invalid UTF-8, saving another byte.
