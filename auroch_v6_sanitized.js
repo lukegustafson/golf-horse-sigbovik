@@ -1,0 +1,1 @@
+for(w=e=i=1;e+=e/`COMPRESSED_DATA`.charCodeAt(i/2);)w=++i%65?e.toString(16)[12]+w:[console.log(w)]
